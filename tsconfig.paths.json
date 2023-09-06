@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@models/*": ["models/*"],
+      "@store/*": ["store/*"],
+      "@pages/*": ["pages/*"],
+      "@routes/*": ["routes/*"],
+      "@hooks/*": ["hooks/*"],
+      "@api/*": ["api/*"]
+    },
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
+}
